@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: qt-nacos-echo-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: Qq331628879!@!@
+        namespace: 8bc18240-6f3f-4a9d-9bda-3e6d16807c8f
